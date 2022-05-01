@@ -54,7 +54,7 @@ void loop() {
       hunger = 0;
     }
   
-  if((millis()%5000) == 1){
+  if((millis()%4000000) == 1){
     if(Clocation >= 16){
       lcd.setCursor(7, 1);
       lcd.print(" STARVING");
